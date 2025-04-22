@@ -6,9 +6,9 @@
     <title>Exercise HTML</title>
 </head>
 <body>
-    <h1>Exercise HTML</h1>
+    <h1>Exercise HTML</h1> <!-- H1 Principal -->
 
-    <nav>
+    <nav aria-label="Principal Navigation"> <!-- Navegation Principal -->
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -19,25 +19,45 @@
 
     <main>
         <article>
-            <h2>My First Article</h2>
-            <p>This is the content of my first article.</p>
+            <h2>Article</h2> <!-- Principal Article -->
+            <p>This is the content of my first article.  <br> My name is <em>Matheus </em>. 
+                &lt; I was born in February &#48; &#50; in &#50; &#48; &#48;	&#55; &#33; &gt;  </p>
         </article>
 
         <section>
-            <h3>My First Section</h3>
+            <h3>Section</h3> <!-- Principal Section -->
             <p>This is the content of my first section.</p>
         </section>  
 
         <article>
-            <h2>My Second Article</h2>
+            <h2>Second Article</h2> <!-- Secundary Article -->
             <p>This is the content of my second article.</p>
+            <p>Posted in <time datetime="2025-04-21">April 21, 2025</time></p>
         </article>
 
         <section>
-            <h3>My Second Section</h3>
+            <h3>Second Section</h3> <!-- Second Section -->
             <p>This is the content of my second section.</p>
         </section>
-            
+
+        <aside>
+            <h3>My Sidebar</h3> <!-- SideBar without CSS -->
+            <p>This is the content of my sidebar.</p>
+        </aside>
+
+        <footer> <!-- Footer  -->
+            <p>This is the content of my footer.</p>
+        </footer>
+
     </main>
+    <nav aria-label="Secondary Navigation"> <!-- Navegation Secondary -->
+        <ul>
+            
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
 </body>
 </html>
