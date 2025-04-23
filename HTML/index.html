@@ -4,61 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Exercise HTML</title>
-    <alink rel="stylesheet" href ="style.css">
+    <link rel="stylesheet" href ="../CSS/styles.css">
 </head>
 <body>
-    <h1>Exercise HTML</h1> <!-- H1 Principal -->
+    <h1>PAGE TITLE</h1> <!-- H1 Principal -->
 
     <nav aria-label="Principal Navigation"> <!-- Navegation Principal -->
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </nav>
 
-    <main>
-        <article>
-            <h2>Article</h2> <!-- Principal Article -->
-            <p>This is the content of my first article.  <br> My name is <em>Matheus </em>. 
-                &lt; I was born in February &#48; &#50; in &#50; &#48; &#48;	&#55; &#33; &gt;  </p>
-        </article>
+    <main> <!-- Main -->
+        <div class="content-box"> <!-- Left Side -->
+            <article class="Article"> <!-- Principal Article -->
+                <h2>Article One</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquet, nulla ac fermentum sollicitudin, velit magna faucibus felis, et consequat velit metus ut enim. Duis varius vestibulum orci, eget ultrices arcu imperdiet nec. Ut hendrerit neque enim, sit amet posuere metus ultrices vel. Sed ac fringilla eros. Maecenas quis est ac dui blandit laoreet non vel enim. Duis ullamcorper sit amet dolor id egestas.</p>
+            </article>
 
-        <section>
-            <h3>Section</h3> <!-- Principal Section -->
-            <p>This is the content of my first section.</p>
-        </section>  
+            <section class="images"> <!-- Imagens -->
+                <div class="image">Image 1</div>
+                <div class="image">Image 2</div>
+                <div class="image">Image 3</div>
+            </section>
+        </div>
 
-        <article>
-            <h2>Second Article</h2> <!-- Secundary Article -->
-            <p>This is the content of my second article.</p>
-            <p>Posted in <time datetime="2025-04-21">April 21, 2025</time></p>
-        </article>
-
-        <section>
-            <h3>Second Section</h3> <!-- Second Section -->
-            <p>This is the content of my second section.</p>
-        </section>
-
-        <aside>
-            <h3>My Sidebar</h3> <!-- SideBar without CSS -->
-            <p>This is the content of my sidebar.</p>
+        <aside class="sidebar"> <!-- Sidebar -->
+            <h2>Projects</h2>
+            <ul>
+                <li>January 2024</li>
+                <li>December 2023</li>
+                <li>November 2023</li>
+                <li>October 2023</li>
+                <li>September 2023</li>
+            </ul>
         </aside>
 
-        <footer> <!-- Footer  -->
-            <p>This is the content of my footer.</p>
-        </footer>
-
+        <div id="footer"> <!-- Footer -->
+            <footer>
+                <p>© 2024 My Webpage | <a href="#">Privacy Policy</a></p>
+            </footer>
+        </div>
     </main>
-    <nav aria-label="Secondary Navigation"> <!-- Navegation Secondary -->
-        <ul>
-            
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="blog.html">Blog</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
 </body>
 </html>

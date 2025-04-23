@@ -38,7 +38,7 @@ TEST*.xml
 Thumbs.db
 # Tests
 /test
-/testing
+/testing    
 /coverage
 # Cache
 .cache/
